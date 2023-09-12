@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+}
+
+.cabecalhoEsq {
+    display: flex;
+    align-items: center;
+}
+
+#yticon {
+    width: 1.5em;
+}
+
+#menu-aberto {
+    padding: 0 4.5px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    width: 1.6em;
+}
+
+.cabecalhoMei {
+    display: flex;
+}
+
+.cabecalhoMei form {
+    display: flex;
+    border: 1px solid #ddd;
+    height: 45px;
+}
+
+.cabecalhoMei input {
+    width: 600px;
+    padding: 10px;
+    border: 0;
+    height: 100%;
+    border-radius: 2px 0 0 2px
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+main {
+    height: calc(100vh - 70px);
+    display: flex;
+    background-color: white;
+}
